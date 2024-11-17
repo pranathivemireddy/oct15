@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    border: 5px solid;
+}
+.item1{
+    height:300px;
+    background-color: pink;
+    padding: 20px;
+}
+.item2{
+    height:300px;
+    background-color:blue;
+    padding: 20px;
+    position:sticky;
+    top:0px;
+}
+.item2~*{
+    height: 250px;
+    padding: 30px;
+}
+.item3,.item5,.item7{
+    background-color: brown;
+}
+.item4,.item6,.item8{
+    background-color: blueviolet;
+}
+.item6{
+    text-align: center;
+    font-size: 2rem;
+    position:sticky;
+    bottom:0px;
+}
